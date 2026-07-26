@@ -375,6 +375,23 @@
         .btn-ghost:hover {
             color: var(--text-primary);
         }
+        
+        @media (max-width: 768px) {
+            nav {
+                padding: 0 5%;
+            }
+            .nav-links,
+            .nav-cta {
+                display: none;
+            }
+            .hamburger {
+                display: flex;
+            }
+            section {
+                padding: 70px 5%;
+            }
+            ...
+        }
         /* Hero Image */
         
         .hero-image-wrap {
@@ -1628,9 +1645,10 @@
 
     <!-- NAV -->
     <nav id="navbar">
-        <a href="#home" class="nav-logo">SK<span>.</span></a>
+        <a href="#home" class="nav-logo">SK<span> M</span></a>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
+            <li><a href="#education">education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
@@ -1661,9 +1679,12 @@
                 <div class="hero-badge">
                     <span>final Year EEE Student · open to Internship & job opportunities</span>
                 </div>
-                <h1 class="hero-name">Sivakumar <span class="highlight">M</span></h1>
+                <h1 class="hero-name">SIVAKUMAR <span class="highlight">M</span></h1>
                 <p class="hero-title">Frontend Developer &amp; UI/UX Designer · EEE Engineer</p>
-                <p class="hero-tagline">"Engineering Circuits by Day, Crafting Interfaces by Night."</p>
+                <p class="hero-tagline">"Engineering Circuits by Day, Crafting Interfaces by Night. "
+                    <br>
+                    <br>யாதினை நம்பி விழும் நெஞ்சம்,
+                    <br>தன்னினை நம்பி எழாதோ? </p>
                 <p class="hero-desc">
                     A <strong>dedicated Electrical &amp; Electronics Engineering student</strong> at AAA College of Engineering and Technology, blending a strong academic foundation with real-world expertise in <strong>frontend development, UI/UX design, and full-stack technologies</strong>.
                     I thrive at the intersection of engineering precision and digital creativity — building responsive, user-centered interfaces that make an impact.
@@ -1708,294 +1729,294 @@
     <div class="section-divider "></div>
 
     <!-- ABOUT -->
-    <section id="about" class="about-bg"></section>
-    <div class="section-inner ">
-        <div class="section-label ">Who I Am</div>
-        <h2 class="section-title ">About Me</h2>
-        <div class="about-grid ">
-            <div class="about-text reveal-left ">
-                <p>
-                    I'm <strong>Sivakumar M</strong>, a Final-year Electrical and Electronics Engineering student at AAA College of Engineering and Technology, Rajapalayam. While my academic roots lie in circuit analysis, electrical machines, and control
-                    systems, my passion extends far beyond the classroom — into the world of digital design and modern software development.
-                </p>
-                <p>
-                    With hands-on internship experience at <strong>R Sun Technology (Madurai)</strong> and <strong>Shenll Technology Solutions (Chennai)</strong>, I have developed a professional understanding of frontend and full-stack development. I've
-                    worked on responsive web interfaces, contributed to backend systems using ReactJS, NodeJS, and MySQL, and gained exposure to agile, collaborative workflows.
-                </p>
-                <p>
-                    I'm fluent in <strong>UI/UX design</strong> using Figma and Canva, skilled in frontend development, and comfortable working across Arduino, Python, and C programming for hardware-software integrative projects. I bring a strong creative
-                    eye combined with an engineer's problem-solving mindset.
-                </p>
-                <p>
-                    My goal is to bridge the gap between engineering and technology — building elegant, functional digital solutions while continuing to grow as both an engineer and a developer.
-                </p>
-            </div>
-            <div class="about-highlights reveal ">
-                <div class="about-card ">
-                    <div class="about-card-icon "><i class="fas fa-bullseye "></i></div>
-                    <h4>Career Goal</h4>
-                    <p>To contribute meaningfully to innovative tech teams while blending my engineering foundation with modern development skills.</p>
+    <section id="about" class="about-bg">
+        <div class="section-inner ">
+            <div class="section-label ">Who I Am</div>
+            <h2 class="section-title ">About Me</h2>
+            <div class="about-grid ">
+                <div class="about-text reveal-left ">
+                    <p>
+                        I'm <strong>Sivakumar M</strong>, a Final-year Electrical and Electronics Engineering student at AAA College of Engineering and Technology, Rajapalayam. While my academic roots lie in circuit analysis, electrical machines, and
+                        control systems, my passion extends far beyond the classroom — into the world of digital design and modern software development.
+                    </p>
+                    <p>
+                        With hands-on internship experience at <strong>R Sun Technology (Madurai)</strong> and <strong>Shenll Technology Solutions (Chennai)</strong>, I have developed a professional understanding of frontend and full-stack development.
+                        I've worked on responsive web interfaces, contributed to backend systems using ReactJS, NodeJS, and MySQL, and gained exposure to agile, collaborative workflows.
+                    </p>
+                    <p>
+                        I'm fluent in <strong>UI/UX design</strong> using Figma and Canva, skilled in frontend development, and comfortable working across Arduino, Python, and C programming for hardware-software integrative projects. I bring a strong
+                        creative eye combined with an engineer's problem-solving mindset.
+                    </p>
+                    <p>
+                        My goal is to bridge the gap between engineering and technology — building elegant, functional digital solutions while continuing to grow as both an engineer and a developer.
+                    </p>
                 </div>
-                <div class="about-card ">
-                    <div class="about-card-icon "><i class="fas fa-bolt "></i></div>
-                    <h4>Core Strength</h4>
-                    <p>Translating complex requirements into clean, responsive UIs — with a sharp eye for design and a structured engineering approach.</p>
-                </div>
-                <div class="about-card ">
-                    <div class="about-card-icon "><i class="fas fa-lightbulb "></i></div>
-                    <h4>Area of Interest</h4>
-                    <p>Frontend Development, UI/UX Design, IoT Systems, and Full Stack web application development.</p>
-                </div>
-                <div class="about-card ">
-                    <div class="about-card-icon "><i class="fas fa-users "></i></div>
-                    <h4>Work Style</h4>
-                    <p>Collaborative, detail-oriented, and deadline-driven — comfortable working in team environments and adapting to new challenges quickly.</p>
+                <div class="about-highlights reveal ">
+                    <div class="about-card ">
+                        <div class="about-card-icon "><i class="fas fa-bullseye "></i></div>
+                        <h4>Career Goal</h4>
+                        <p>To contribute meaningfully to innovative tech teams while blending my engineering foundation with modern development skills.</p>
+                    </div>
+                    <div class="about-card ">
+                        <div class="about-card-icon "><i class="fas fa-bolt "></i></div>
+                        <h4>Core Strength</h4>
+                        <p>Translating complex requirements into clean, responsive UIs — with a sharp eye for design and a structured engineering approach.</p>
+                    </div>
+                    <div class="about-card ">
+                        <div class="about-card-icon "><i class="fas fa-lightbulb "></i></div>
+                        <h4>Area of Interest</h4>
+                        <p>Frontend Development, UI/UX Design, IoT Systems, and Full Stack web application development.</p>
+                    </div>
+                    <div class="about-card ">
+                        <div class="about-card-icon "><i class="fas fa-users "></i></div>
+                        <h4>Work Style</h4>
+                        <p>Collaborative, detail-oriented, and deadline-driven — comfortable working in team environments and adapting to new challenges quickly.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
     <div class="section-divider "></div>
 
     <!-- EDUCATION -->
-    <section id="education"></section>
-    <div class="section-inner ">
-        <div class="section-label ">Academic Journey</div>
-        <h2 class="section-title ">Education</h2>
-        <p class="section-subtitle ">A foundation built on electrical engineering with a continuous pursuit of technical growth.</p>
-        <div class="edu-timeline ">
-            <div class="edu-item reveal ">
-                <span class="edu-year ">2023 – 2027 (Ongoing)</span>
-                <div class="edu-degree ">B.E. Electrical and Electronics Engineering</div>
-                <div class="edu-school ">AAA College of Engineering and Technology</div>
-                <div class="edu-detail ">Currently in Final Year · Sivakasi, Tamil Nadu</div>
-            </div>
-            <div class="edu-item reveal ">
-                <span class="edu-year ">2023</span>
-                <div class="edu-degree ">Higher Secondary Education (Class XII)</div>
-                <div class="edu-school ">Nadar Higher Secondary School</div>
-                <div class="edu-detail ">Score: 65% · Tamil Nadu State Board</div>
+    <section id="education">
+        <div class="section-inner ">
+            <div class="section-label ">Academic Journey</div>
+            <h2 class="section-title ">Education</h2>
+            <p class="section-subtitle ">A foundation built on electrical engineering with a continuous pursuit of technical growth.</p>
+            <div class="edu-timeline ">
+                <div class="edu-item reveal ">
+                    <span class="edu-year ">2023 – 2027 (Ongoing)</span>
+                    <div class="edu-degree ">B.E. Electrical and Electronics Engineering</div>
+                    <div class="edu-school ">AAA College of Engineering and Technology</div>
+                    <div class="edu-detail ">Currently in Final Year · Sivakasi, Tamil Nadu</div>
+                </div>
+                <div class="edu-item reveal ">
+                    <span class="edu-year ">2023</span>
+                    <div class="edu-degree ">Higher Secondary Education (Class XII)</div>
+                    <div class="edu-school ">Nadar Higher Secondary School</div>
+                    <div class="edu-detail ">Score: 65% · Tamil Nadu State Board</div>
+                </div>
             </div>
         </div>
-    </div>
+
+    </section>
 
 
-    <div class="section-divider "></div>
 
     <!-- SKILLS -->
-    <section id="skills" class="skills-bg"></section>
-    <div class="section-inner ">
-        <div class="section-label ">What I Know</div>
-        <h2 class="section-title ">Skills &amp; Expertise</h2>
-        <p class="section-subtitle ">A versatile skill set that spans frontend design, engineering tools, and collaborative software.</p>
-        <div class="skills-categories ">
-            <div class="reveal ">
-                <div class="skills-cat-title "><i class="fas fa-code " style="color:var(--blue-light);margin-right:0.5rem "></i> Frontend &amp; Design</div>
-                <div class="skills-grid ">
-                    <span class="skill-tag "><i class="fab fa-html5 "></i> HTML5</span>
-                    <span class="skill-tag "><i class="fab fa-css3-alt "></i> CSS3</span>
-                    <span class="skill-tag "><i class="fab fa-js "></i> JavaScript</span>
-                    <span class="skill-tag "><i class="fab fa-react "></i> ReactJS</span>
-                    <span class="skill-tag "><i class="fas fa-palette "></i> UI/UX Design</span>
-                    <span class="skill-tag "><i class="fas fa-mobile-alt "></i> Responsive Design</span>
+    <section id="skills" class="skills-bg">
+        <div class="section-inner ">
+            <div class="section-label ">What I Know</div>
+            <h2 class="section-title ">Skills &amp; Expertise</h2>
+            <p class="section-subtitle ">A versatile skill set that spans frontend design, engineering tools, and collaborative software.</p>
+            <div class="skills-categories ">
+                <div class="reveal ">
+                    <div class="skills-cat-title "><i class="fas fa-code " style="color:var(--blue-light);margin-right:0.5rem "></i> Frontend &amp; Design</div>
+                    <div class="skills-grid ">
+                        <span class="skill-tag "><i class="fab fa-html5 "></i> HTML5</span>
+                        <span class="skill-tag "><i class="fab fa-css3-alt "></i> CSS3</span>
+                        <span class="skill-tag "><i class="fab fa-js "></i> JavaScript</span>
+                        <span class="skill-tag "><i class="fab fa-react "></i> ReactJS</span>
+                        <span class="skill-tag "><i class="fas fa-palette "></i> UI/UX Design</span>
+                        <span class="skill-tag "><i class="fas fa-mobile-alt "></i> Responsive Design</span>
+                    </div>
                 </div>
-            </div>
-            <div class="reveal ">
-                <div class="skills-cat-title "><i class="fas fa-server " style="color:var(--blue-light);margin-right:0.5rem "></i> Backend &amp; Database</div>
-                <div class="skills-grid ">
-                    <span class="skill-tag "><i class="fab fa-node-js "></i> NodeJS</span>
-                    <span class="skill-tag "><i class="fas fa-database "></i> MySQL</span>
-                    <span class="skill-tag "><i class="fab fa-python "></i> Python (Basic)</span>
-                    <span class="skill-tag "><i class="fas fa-terminal "></i> C Programming (Basic)</span>
+                <div class="reveal ">
+                    <div class="skills-cat-title "><i class="fas fa-server " style="color:var(--blue-light);margin-right:0.5rem "></i> Backend &amp; Database</div>
+                    <div class="skills-grid ">
+                        <span class="skill-tag "><i class="fab fa-node-js "></i> NodeJS</span>
+                        <span class="skill-tag "><i class="fas fa-database "></i> MySQL</span>
+                        <span class="skill-tag "><i class="fab fa-python "></i> Python (Basic)</span>
+                        <span class="skill-tag "><i class="fas fa-terminal "></i> C Programming (Basic)</span>
+                    </div>
                 </div>
-            </div>
-            <div class="reveal ">
-                <div class="skills-cat-title "><i class="fas fa-tools " style="color:var(--blue-light);margin-right:0.5rem "></i> Tools &amp; Technologies</div>
-                <div class="skills-grid ">
-                    <span class="skill-tag "><i class="fab fa-figma "></i> Figma</span>
-                    <span class="skill-tag "><i class="fas fa-pen-nib "></i> Canva</span>
-                    <span class="skill-tag "><i class="fas fa-image "></i> Adobe Photoshop</span>
-                    <span class="skill-tag "><i class="fab fa-github "></i> GitHub</span>
-                    <span class="skill-tag "><i class="fas fa-code "></i> VS Code</span>
-                    <span class="skill-tag "><i class="fas fa-microchip "></i> Arduino IDE</span>
-                    <span class="skill-tag "><i class="fas fa-file-excel "></i> MS Office Suite</span>
-                    <span class="skill-tag "><i class="fas fa-robot "></i> ChatGPT (AI Tools)</span>
-                    <span class="skill-tag "><i class="fas fa-wifi "></i> MQTT Protocol</span>
+                <div class="reveal ">
+                    <div class="skills-cat-title "><i class="fas fa-tools " style="color:var(--blue-light);margin-right:0.5rem "></i> Tools &amp; Technologies</div>
+                    <div class="skills-grid ">
+                        <span class="skill-tag "><i class="fab fa-figma "></i> Figma</span>
+                        <span class="skill-tag "><i class="fas fa-pen-nib "></i> Canva</span>
+                        <span class="skill-tag "><i class="fas fa-image "></i> Adobe Photoshop</span>
+                        <span class="skill-tag "><i class="fab fa-github "></i> GitHub</span>
+                        <span class="skill-tag "><i class="fas fa-code "></i> VS Code</span>
+                        <span class="skill-tag "><i class="fas fa-microchip "></i> Arduino IDE</span>
+                        <span class="skill-tag "><i class="fas fa-file-excel "></i> MS Office Suite</span>
+                        <span class="skill-tag "><i class="fas fa-robot "></i> ChatGPT (AI Tools)</span>
+                        <span class="skill-tag "><i class="fas fa-wifi "></i> MQTT Protocol</span>
+                    </div>
                 </div>
-            </div>
-            <div class="reveal ">
-                <div class="skills-cat-title "><i class="fas fa-brain " style="color:var(--blue-light);margin-right:0.5rem "></i> Soft Skills</div>
-                <div class="skills-grid ">
-                    <span class="skill-tag "><i class="fas fa-comments "></i> Communication</span>
-                    <span class="skill-tag "><i class="fas fa-handshake "></i> Team Collaboration</span>
-                    <span class="skill-tag "><i class="fas fa-puzzle-piece "></i> Problem Solving</span>
-                    <span class="skill-tag "><i class="fas fa-clock "></i> Time Management</span>
-                    <span class="skill-tag "><i class="fas fa-sync-alt "></i> Adaptability</span>
+                <div class="reveal ">
+                    <div class="skills-cat-title "><i class="fas fa-brain " style="color:var(--blue-light);margin-right:0.5rem "></i> Soft Skills</div>
+                    <div class="skills-grid ">
+                        <span class="skill-tag "><i class="fas fa-comments "></i> Communication</span>
+                        <span class="skill-tag "><i class="fas fa-handshake "></i> Team Collaboration</span>
+                        <span class="skill-tag "><i class="fas fa-puzzle-piece "></i> Problem Solving</span>
+                        <span class="skill-tag "><i class="fas fa-clock "></i> Time Management</span>
+                        <span class="skill-tag "><i class="fas fa-sync-alt "></i> Adaptability</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
 
     <!-- PROJECTS -->
-    <section id="projects"></section>
-    <div class="section-inner">
-        <div class="section-label ">What I've Built</div>
-        <h2 class="section-title ">Projects</h2>
-        <p class="section-subtitle ">A curated collection of real-world projects spanning UI/UX design, IoT, and full-stack development.</p>
-        <div class="projects-grid ">
-            <div class="project-card reveal ">
-                <div class="project-card-header ">
-                    <div class="project-icon "><i class="fas fa-shopping-cart "></i></div>
-                    <span class="project-cat ">UI/UX Design</span>
-                </div>
-                <div class="project-card-body ">
-                    <h3 class="project-title ">E-Commerce Website UI/UX</h3>
-                    <p class="project-desc ">Designed a fully responsive shopping interface covering the complete user journey — from login and product browsing to cart management and checkout flow. Focused on intuitive navigation and clean visual hierarchy.</p>
-                    <div class="project-tags ">
-                        <span class="project-tag ">Figma</span>
-                        <span class="project-tag ">UI Design</span>
-                        <span class="project-tag ">Prototyping</span>
-                        <span class="project-tag ">User Flow</span>
+    <section id="projects">
+        <div class="section-inner">
+            <div class="section-label ">What I've Built</div>
+            <h2 class="section-title ">Projects</h2>
+            <p class="section-subtitle ">A curated collection of real-world projects spanning UI/UX design, IoT, and full-stack development.</p>
+            <div class="projects-grid ">
+                <div class="project-card reveal ">
+                    <div class="project-card-header ">
+                        <div class="project-icon "><i class="fas fa-shopping-cart "></i></div>
+                        <span class="project-cat ">UI/UX Design</span>
+                    </div>
+                    <div class="project-card-body ">
+                        <h3 class="project-title ">E-Commerce Website UI/UX</h3>
+                        <p class="project-desc ">Designed a fully responsive shopping interface covering the complete user journey — from login and product browsing to cart management and checkout flow. Focused on intuitive navigation and clean visual hierarchy.</p>
+                        <div class="project-tags ">
+                            <span class="project-tag ">Figma</span>
+                            <span class="project-tag ">UI Design</span>
+                            <span class="project-tag ">Prototyping</span>
+                            <span class="project-tag ">User Flow</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer ">
+
+                        <a href="https://www.figma.com/design/VNW0wBIEixPyh364GCR1tC?node-id=9-1729 " class="project-link "><i class="fas fa-external-link-alt "></i> view</a>
                     </div>
                 </div>
-                <div class="project-card-footer ">
+                <div class="project-card reveal ">
+                    <div class="project-card-header ">
+                        <div class="project-icon "><i class="fas fa-utensils "></i></div>
+                        <span class="project-cat ">UI/UX Design</span>
+                    </div>
+                    <div class="project-card-body ">
+                        <h3 class="project-title ">Food Delivery App UI/UX</h3>
+                        <p class="project-desc ">Created a modern food ordering application with streamlined screens covering restaurant discovery, menu browsing, ordering, and real-time delivery tracking — designed for optimal mobile usability.</p>
+                        <div class="project-tags ">
+                            <span class="project-tag ">Figma</span>
+                            <span class="project-tag ">Mobile UI</span>
+                            <span class="project-tag ">User Flow</span>
+                            <span class="project-tag ">Canva</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer ">
 
-                    <a href="https://www.figma.com/design/VNW0wBIEixPyh364GCR1tC?node-id=9-1729 " class="project-link "><i class="fas fa-external-link-alt "></i> view</a>
-                </div>
-            </div>
-            <div class="project-card reveal ">
-                <div class="project-card-header ">
-                    <div class="project-icon "><i class="fas fa-utensils "></i></div>
-                    <span class="project-cat ">UI/UX Design</span>
-                </div>
-                <div class="project-card-body ">
-                    <h3 class="project-title ">Food Delivery App UI/UX</h3>
-                    <p class="project-desc ">Created a modern food ordering application with streamlined screens covering restaurant discovery, menu browsing, ordering, and real-time delivery tracking — designed for optimal mobile usability.</p>
-                    <div class="project-tags ">
-                        <span class="project-tag ">Figma</span>
-                        <span class="project-tag ">Mobile UI</span>
-                        <span class="project-tag ">User Flow</span>
-                        <span class="project-tag ">Canva</span>
+                        <a href="https://www.figma.com/design/GMXImUsJWW2q5weQtrVLWE?node-id=0-1 " class="project-link "><i class="fas fa-external-link-alt "></i> view</a>
                     </div>
                 </div>
-                <div class="project-card-footer ">
+                <div class="project-card reveal ">
+                    <div class="project-card-header ">
+                        <div class="project-icon "><i class="fas fa-bus "></i></div>
+                        <span class="project-cat ">UI/UX Design</span>
+                    </div>
+                    <div class="project-card-body ">
+                        <h3 class="project-title ">Smart Bus Tracking UI/UX</h3>
+                        <p class="project-desc ">Developed a comprehensive mobile app UI for a real-time bus tracking system, featuring live location updates, route visualization, and seat availability indicators for an enhanced commuter experience.</p>
+                        <div class="project-tags ">
+                            <span class="project-tag ">Figma</span>
+                            <span class="project-tag ">Mobile UI</span>
+                            <span class="project-tag ">Maps UI</span>
+                            <span class="project-tag ">Real-time</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer ">
 
-                    <a href="https://www.figma.com/design/GMXImUsJWW2q5weQtrVLWE?node-id=0-1 " class="project-link "><i class="fas fa-external-link-alt "></i> view</a>
-                </div>
-            </div>
-            <div class="project-card reveal ">
-                <div class="project-card-header ">
-                    <div class="project-icon "><i class="fas fa-bus "></i></div>
-                    <span class="project-cat ">UI/UX Design</span>
-                </div>
-                <div class="project-card-body ">
-                    <h3 class="project-title ">Smart Bus Tracking UI/UX</h3>
-                    <p class="project-desc ">Developed a comprehensive mobile app UI for a real-time bus tracking system, featuring live location updates, route visualization, and seat availability indicators for an enhanced commuter experience.</p>
-                    <div class="project-tags ">
-                        <span class="project-tag ">Figma</span>
-                        <span class="project-tag ">Mobile UI</span>
-                        <span class="project-tag ">Maps UI</span>
-                        <span class="project-tag ">Real-time</span>
+                        <a href="https://www.figma.com/design/5wvNTPpBXq30wZxJh3xfk4?node-id=0-1 " class="project-link "><i class="fas fa-external-link-alt "></i> view</a>
                     </div>
                 </div>
-                <div class="project-card-footer ">
+                <div class="project-card reveal ">
+                    <div class="project-card-header ">
+                        <div class="project-icon "><i class="fas fa-microchip "></i></div>
+                        <span class="project-cat ">IoT · College Project</span>
+                    </div>
+                    <div class="project-card-body ">
+                        <h3 class="project-title ">Machine Health Monitoring System</h3>
+                        <p class="project-desc ">Built an MQTT-based IoT system for real-time industrial machine health monitoring. The system collects sensor data, transmits it over the MQTT protocol, and displays live machine status — integrating hardware and software seamlessly.</p>
+                        <div class="project-tags ">
+                            <span class="project-tag ">Arduino</span>
+                            <span class="project-tag ">MQTT</span>
+                            <span class="project-tag ">IoT</span>
+                            <span class="project-tag ">Sensors</span>
+                            <span class="project-tag ">Python</span>
+                        </div>
+                    </div>
+                    <div class="project-card-footer ">
 
-                    <a href="https://www.figma.com/design/5wvNTPpBXq30wZxJh3xfk4?node-id=0-1 " class="project-link "><i class="fas fa-external-link-alt "></i> view</a>
-                </div>
-            </div>
-            <div class="project-card reveal ">
-                <div class="project-card-header ">
-                    <div class="project-icon "><i class="fas fa-microchip "></i></div>
-                    <span class="project-cat ">IoT · College Project</span>
-                </div>
-                <div class="project-card-body ">
-                    <h3 class="project-title ">Machine Health Monitoring System</h3>
-                    <p class="project-desc ">Built an MQTT-based IoT system for real-time industrial machine health monitoring. The system collects sensor data, transmits it over the MQTT protocol, and displays live machine status — integrating hardware and software seamlessly.</p>
-                    <div class="project-tags ">
-                        <span class="project-tag ">Arduino</span>
-                        <span class="project-tag ">MQTT</span>
-                        <span class="project-tag ">IoT</span>
-                        <span class="project-tag ">Sensors</span>
-                        <span class="project-tag ">Python</span>
+                        <a href="industrial machine health monitoring using MQTT report 1.pdf" class="project-link "><i class="fas fa-external-link-alt "></i>view </a>
                     </div>
                 </div>
-                <div class="project-card-footer ">
-
-                    <a href="industrial machine health monitoring using MQTT report 1.pdf" class="project-link "><i class="fas fa-external-link-alt "></i>view </a>
-                </div>
-            </div>
-            <div class="project-card reveal ">
-                <div class="project-card-header ">
-                    <div class="project-icon "><i class="fas fa-home "></i></div>
-                    <span class="project-cat ">Full Stack · Internship</span>
-                </div>
-                <div class="project-card-body ">
-                    <h3 class="project-title ">Gated Community Portal</h3>
-                    <p class="project-desc ">Contributed to the development of a full-stack gated community management portal during my internship at Shenll Technology Solutions. Implemented frontend features using ReactJS and worked on backend API integration with NodeJS and
-                        MySQL.
-                    </p>
-                    <div class="project-tags ">
-                        <span class="project-tag ">ReactJS</span>
-                        <span class="project-tag ">NodeJS</span>
-                        <span class="project-tag ">MySQL</span>
-                        <span class="project-tag ">Full Stack</span>
+                <div class="project-card reveal ">
+                    <div class="project-card-header ">
+                        <div class="project-icon "><i class="fas fa-home "></i></div>
+                        <span class="project-cat ">Full Stack · Internship</span>
                     </div>
-                </div>
+                    <div class="project-card-body ">
+                        <h3 class="project-title ">Gated Community Portal</h3>
+                        <p class="project-desc ">Contributed to the development of a full-stack gated community management portal during my internship at Shenll Technology Solutions. Implemented frontend features using ReactJS and worked on backend API integration with NodeJS
+                            and MySQL.
+                        </p>
+                        <div class="project-tags ">
+                            <span class="project-tag ">ReactJS</span>
+                            <span class="project-tag ">NodeJS</span>
+                            <span class="project-tag ">MySQL</span>
+                            <span class="project-tag ">Full Stack</span>
+                        </div>
+                    </div>
 
+                </div>
             </div>
         </div>
-    </div>
 
 
-    <br>
-    <br>
+    </section>
     <div class="section-divider "></div>
 
     <!-- EXPERIENCE -->
-    <section id="experience" class="exp-bg"></section>
-    <div class="section-inner ">
-        <div class="section-label ">Professional Journey</div>
-        <h2 class="section-title ">Internship Experience</h2>
-        <p class="section-subtitle ">Real-world exposure across web development and full-stack engineering environments.</p>
-        <div class="exp-timeline ">
-            <div class="exp-item reveal ">
-                <div class="exp-card ">
-                    <div class="exp-header ">
-                        <span class="exp-company ">Shenll Technology Solutions Pvt. Ltd., Chennai</span>
-                        <span class="exp-duration ">Dec, 2025 – Jan, 2026</span>
+    <section id="experience" class="exp-bg">
+        <div class="section-inner ">
+            <div class="section-label ">Professional Journey</div>
+            <h2 class="section-title ">Internship Experience</h2>
+            <p class="section-subtitle ">Real-world exposure across web development and full-stack engineering environments.</p>
+            <div class="exp-timeline ">
+                <div class="exp-item reveal ">
+                    <div class="exp-card ">
+                        <div class="exp-header ">
+                            <span class="exp-company ">Shenll Technology Solutions Pvt. Ltd., Chennai</span>
+                            <span class="exp-duration ">Dec, 2025 – Jan, 2026</span>
+                        </div>
+                        <div class="exp-role "><i class="fas fa-layer-group " style="margin-right:0.4rem;opacity:0.7 "></i>Full Stack Development Intern</div>
+                        <ul class="exp-list ">
+                            <li>Worked on both frontend and backend development tasks within a professional agile development environment.</li>
+                            <li>Contributed to UI improvements and application functionality enhancements using ReactJS and NodeJS.</li>
+                            <li>Participated actively in the development of the Gated Community Portal — a full-stack web application using ReactJS, NodeJS, and MySQL.</li>
+                            <li>Strengthened understanding of software development lifecycles, version control with Git/GitHub, and collaborative teamwork practices.</li>
+                        </ul>
                     </div>
-                    <div class="exp-role "><i class="fas fa-layer-group " style="margin-right:0.4rem;opacity:0.7 "></i>Full Stack Development Intern</div>
-                    <ul class="exp-list ">
-                        <li>Worked on both frontend and backend development tasks within a professional agile development environment.</li>
-                        <li>Contributed to UI improvements and application functionality enhancements using ReactJS and NodeJS.</li>
-                        <li>Participated actively in the development of the Gated Community Portal — a full-stack web application using ReactJS, NodeJS, and MySQL.</li>
-                        <li>Strengthened understanding of software development lifecycles, version control with Git/GitHub, and collaborative teamwork practices.</li>
-                    </ul>
                 </div>
-            </div>
-            <div class="exp-item reveal ">
-                <div class="exp-card ">
-                    <div class="exp-header ">
-                        <span class="exp-company ">R Sun Technology, Madurai</span>
-                        <span class="exp-duration ">Jul, 2025 </span>
+                <div class="exp-item reveal ">
+                    <div class="exp-card ">
+                        <div class="exp-header ">
+                            <span class="exp-company ">R Sun Technology, Madurai</span>
+                            <span class="exp-duration ">Jul, 2025 </span>
+                        </div>
+                        <div class="exp-role "><i class="fas fa-globe " style="margin-right:0.4rem;opacity:0.7 "></i>Web Development Intern</div>
+                        <ul class="exp-list ">
+                            <li>Assisted in developing responsive web interfaces with a focus on cross-device compatibility and improved user experience.</li>
+                            <li>Gained practical exposure to core frontend development concepts including HTML, CSS, JavaScript, and responsive design principles.</li>
+                            <li>Collaborated with the development team on real-time tasks, contributing to project timelines and deliverables effectively.</li>
+                        </ul>
                     </div>
-                    <div class="exp-role "><i class="fas fa-globe " style="margin-right:0.4rem;opacity:0.7 "></i>Web Development Intern</div>
-                    <ul class="exp-list ">
-                        <li>Assisted in developing responsive web interfaces with a focus on cross-device compatibility and improved user experience.</li>
-                        <li>Gained practical exposure to core frontend development concepts including HTML, CSS, JavaScript, and responsive design principles.</li>
-                        <li>Collaborated with the development team on real-time tasks, contributing to project timelines and deliverables effectively.</li>
-                    </ul>
                 </div>
+
             </div>
 
         </div>
-
-    </div>
-    </div>
-
+        </div>
+    </section>
 
     <!-- TRAINING 
         EXPERIENCE -->
@@ -2040,282 +2061,278 @@
                                 Gained practical knowledge of renewable energy systems, solar panels, and PV technologies.
                             </li>
                         </ul>
-
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
     <!-- CERTIFICATIONS -->
-    <section id="certifications"></section>
-    <div class="section-inner">
-        <div class="section-label">Credentials</div>
-        <h2 class="section-title">Certifications</h2>
-        <p class="section-subtitle">
-            Professional recognition of skills gained through certifications and continuous learning.
-        </p>
+    <section id="certifications">
+        <div class="section-inner">
+            <div class="section-label">Credentials</div>
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">
+                Professional recognition of skills gained through certifications and continuous learning.
+            </p>
 
-        <div class="cert-grid">
+            <div class="cert-grid">
 
-            <div class="cert-card reveal">
-                <div class="cert-icon">
-                    <i class="fas fa-robot"></i>
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="cert-name">
+                        Generative AI Mastermind
+                    </div>
+                    <div class="cert-org">
+                        OutSkill
+                    </div>
+                    <div class="cert-note">
+                        Generative AI concepts and practical AI learning
+                    </div>
                 </div>
-                <div class="cert-name">
-                    Generative AI Mastermind
+
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="cert-name">
+                        App Development with Zero Coding
+                    </div>
+                    <div class="cert-org">
+                        ZenKidz
+                    </div>
+                    <div class="cert-note">
+                        Learned app development concepts using no-code platforms
+                    </div>
                 </div>
-                <div class="cert-org">
-                    OutSkill
+
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="cert-name">
+                        Power BI Workshop
+                    </div>
+                    <div class="cert-org">
+                        OfficeMaster
+                    </div>
+                    <div class="cert-note">
+                        Data visualization and business intelligence basics
+                    </div>
                 </div>
-                <div class="cert-note">
-                    Generative AI concepts and practical AI learning
+
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="cert-name">
+                        Master UI/UX Design Workshop
+                    </div>
+                    <div class="cert-org">
+                        Easyux
+                    </div>
+                    <div class="cert-note">
+                        UI design principles, Figma workflow and user experience
+                    </div>
                 </div>
+
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="cert-name">
+                        PC Essential
+                    </div>
+                    <div class="cert-org">
+                        iTech Academy
+                    </div>
+                    <div class="cert-note">
+                        Computer hardware and essential PC concepts
+                    </div>
+                </div>
+
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="cert-name">
+                        LabVIEW for Electrical Automation and Control
+                    </div>
+                    <div class="cert-org">
+                        AAACET
+                    </div>
+                    <div class="cert-note">
+                        Electrical automation, control systems and LabVIEW basics
+                    </div>
+                </div>
+
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-business-time"></i>
+                    </div>
+                    <div class="cert-name">
+                        Business Development
+                    </div>
+                    <div class="cert-org">
+                        EDUTA
+                    </div>
+                    <div class="cert-note">
+                        Business strategy and development fundamentals
+                    </div>
+                </div>
+
+
             </div>
-
-
-            <div class="cert-card reveal">
-                <div class="cert-icon">
-                    <i class="fas fa-mobile-screen-button"></i>
-                </div>
-                <div class="cert-name">
-                    App Development with Zero Coding
-                </div>
-                <div class="cert-org">
-                    ZenKidz
-                </div>
-                <div class="cert-note">
-                    Learned app development concepts using no-code platforms
-                </div>
-            </div>
-
-
-            <div class="cert-card reveal">
-                <div class="cert-icon">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="cert-name">
-                    Power BI Workshop
-                </div>
-                <div class="cert-org">
-                    OfficeMaster
-                </div>
-                <div class="cert-note">
-                    Data visualization and business intelligence basics
-                </div>
-            </div>
-
-
-            <div class="cert-card reveal">
-                <div class="cert-icon">
-                    <i class="fas fa-palette"></i>
-                </div>
-                <div class="cert-name">
-                    Master UI/UX Design Workshop
-                </div>
-                <div class="cert-org">
-                    Easyux
-                </div>
-                <div class="cert-note">
-                    UI design principles, Figma workflow and user experience
-                </div>
-            </div>
-
-
-            <div class="cert-card reveal">
-                <div class="cert-icon">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-                <div class="cert-name">
-                    PC Essential
-                </div>
-                <div class="cert-org">
-                    iTech Academy
-                </div>
-                <div class="cert-note">
-                    Computer hardware and essential PC concepts
-                </div>
-            </div>
-
-
-            <div class="cert-card reveal">
-                <div class="cert-icon">
-                    <i class="fas fa-microchip"></i>
-                </div>
-                <div class="cert-name">
-                    LabVIEW for Electrical Automation and Control
-                </div>
-                <div class="cert-org">
-                    AAACET
-                </div>
-                <div class="cert-note">
-                    Electrical automation, control systems and LabVIEW basics
-                </div>
-            </div>
-
-
-            <div class="cert-card reveal">
-                <div class="cert-icon">
-                    <i class="fas fa-business-time"></i>
-                </div>
-                <div class="cert-name">
-                    Business Development
-                </div>
-                <div class="cert-org">
-                    EDUTA
-                </div>
-                <div class="cert-note">
-                    Business strategy and development fundamentals
-                </div>
-            </div>
-
-
         </div>
-    </div>
     </section>
-    <br><br>
 
     <!-- ACHIEVEMENTS -->
-    <section id="achievements" class="ach-bg"></section>
-    <div class="section-inner ">
-        <div class="section-label ">Milestones</div>
-        <h2 class="section-title ">Achievements</h2>
-        <p class="section-subtitle ">Key accomplishments that reflect initiative, technical ability, and cross-domain growth.</p>
-        <div class="ach-grid ">
-            <div class="ach-card reveal ">
-                <div class="ach-icon "><i class="fas fa-briefcase "></i></div>
-                <div class="ach-title ">Dual Internship Experience</div>
-                <div class="ach-desc ">Successfully completed two internships in web development and full-stack development.</div>
-            </div>
-            <div class="ach-card reveal ">
-                <div class="ach-icon "><i class="fas fa-project-diagram "></i></div>
-                <div class="ach-title ">5+ Completed Projects</div>
-                <div class="ach-desc ">Delivered UI/UX design projects, an IoT system, and a full-stack web application spanning multiple domains.</div>
-            </div>
-            <div class="ach-card reveal ">
-                <div class="ach-icon "><i class="fas fa-microchip "></i></div>
-                <div class="ach-title ">IoT System Development</div>
-                <div class="ach-desc ">Built an MQTT-based real-time Machine Health Monitoring System integrating hardware and software components.</div>
-            </div>
-            <div class="ach-card reveal ">
-                <div class="ach-icon "><i class="fas fa-layer-group "></i></div>
-                <div class="ach-title ">Full Stack Contributor</div>
-                <div class="ach-desc ">Actively contributed to both frontend and backend of a live client project during the Shenll Technology internship.</div>
-            </div>
-            <div class="ach-card reveal ">
-                <div class="ach-icon "><i class="fas fa-paint-brush "></i></div>
-                <div class="ach-title ">Multi-Domain UI/UX Designer</div>
-                <div class="ach-desc ">Designed user interfaces across e-commerce, food delivery, and smart city applications using Figma and Canva.</div>
-            </div>
-            <div class="ach-card reveal ">
-                <div class="ach-icon "><i class="fas fa-user-graduate "></i></div>
-                <div class="ach-title ">Engineering + Tech Integration</div>
-                <div class="ach-desc ">Bridging EEE academics with modern software development — a rare, recruiter-valued multi-disciplinary profile.</div>
+    <section id="achievements" class="ach-bg">
+        <div class="section-inner ">
+            <div class="section-label ">Milestones</div>
+            <h2 class="section-title ">Achievements</h2>
+            <p class="section-subtitle ">Key accomplishments that reflect initiative, technical ability, and cross-domain growth.</p>
+            <div class="ach-grid ">
+                <div class="ach-card reveal ">
+                    <div class="ach-icon "><i class="fas fa-briefcase "></i></div>
+                    <div class="ach-title ">Dual Internship Experience</div>
+                    <div class="ach-desc ">Successfully completed two internships in web development and full-stack development.</div>
+                </div>
+                <div class="ach-card reveal ">
+                    <div class="ach-icon "><i class="fas fa-project-diagram "></i></div>
+                    <div class="ach-title ">5+ Completed Projects</div>
+                    <div class="ach-desc ">Delivered UI/UX design projects, an IoT system, and a full-stack web application spanning multiple domains.</div>
+                </div>
+                <div class="ach-card reveal ">
+                    <div class="ach-icon "><i class="fas fa-microchip "></i></div>
+                    <div class="ach-title ">IoT System Development</div>
+                    <div class="ach-desc ">Built an MQTT-based real-time Machine Health Monitoring System integrating hardware and software components.</div>
+                </div>
+                <div class="ach-card reveal ">
+                    <div class="ach-icon "><i class="fas fa-layer-group "></i></div>
+                    <div class="ach-title ">Full Stack Contributor</div>
+                    <div class="ach-desc ">Actively contributed to both frontend and backend of a live client project during the Shenll Technology internship.</div>
+                </div>
+                <div class="ach-card reveal ">
+                    <div class="ach-icon "><i class="fas fa-paint-brush "></i></div>
+                    <div class="ach-title ">Multi-Domain UI/UX Designer</div>
+                    <div class="ach-desc ">Designed user interfaces across e-commerce, food delivery, and smart city applications using Figma and Canva.</div>
+                </div>
+                <div class="ach-card reveal ">
+                    <div class="ach-icon "><i class="fas fa-user-graduate "></i></div>
+                    <div class="ach-title ">Engineering + Tech Integration</div>
+                    <div class="ach-desc ">Bridging EEE academics with modern software development — a rare, recruiter-valued multi-disciplinary profile.</div>
+                </div>
             </div>
         </div>
-    </div>
-
+    </section>
     <div class="section-divider "></div>
 
     <!-- CONTACT -->
-    <section id="contact"></section>
-    <div class="section-inner">
-        <div class="section-label ">Get in Touch</div>
-        <h2 class="section-title ">Contact Me</h2>
-        <p class="section-subtitle ">Open to internship opportunities, freelance projects, and collaborative work. Let's build something meaningful together.</p>
-        <div class="contact-grid ">
-            <div class="contact-info reveal-left ">
-                <a href="mailto:sk.arjunmm777@gmail.com " class="contact-item ">
-                    <div class="contact-item-icon "><i class="fas fa-envelope "></i></div>
-                    <div class="contact-item-text ">
-                        <span class="contact-item-label ">Email</span>
-                        <span class="contact-item-value ">sk.arjunmm777@gmail.com</span>
-                    </div>
-                </a>
-                <a href="tel:+917010668656 " class="contact-item ">
-                    <div class="contact-item-icon "><i class="fas fa-phone "></i></div>
-                    <div class="contact-item-text ">
-                        <span class="contact-item-label ">Mobile</span>
-                        <span class="contact-item-value ">+91 7010668657</span>
-                    </div>
-                </a>
-                <a href="https://www.linkedin.com/in/sivakumar-m-8474832b5?utm_source=share_via&utm_content=profile&utm_medium=member_android " target="_blank " class="contact-item ">
-                    <div class="contact-item-icon "><i class="fab fa-linkedin-in "></i></div>
-                    <div class="contact-item-text ">
-                        <span class="contact-item-label ">LinkedIn</span>
-                        <span class="contact-item-value ">Sivakumar M</span>
-                    </div>
-                </a>
-                <a href="https://github.com/skarjunmm777-collab" target="_blank" class="contact-item">
-                    <div class="contact-item-icon">
-                        <i class="fab fa-github"></i>
-                    </div>
-                    <div class="contact-item-text">
-                        <span class="contact-item-label">GitHub</span>
-                        <span class="contact-item-value">skarjunmm777</span>
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/__ttf_arjun__?igsh=MW0xM3BscWVvd2tyOA==/ " target="_blank " class="contact-item ">
-                    <div class="contact-item-icon ">
-                        <i class="fab fa-instagram "></i>
-                    </div>
-                    <div class="contact-item-text ">
-                        <span class="contact-item-label ">Instagram</span>
-                        <span class="contact-item-value ">@__ttf_arjun__</span>
-                    </div>
-                </a>
-                <div class="contact-item " style="cursor:default ">
-                    <div class="contact-item-icon "><i class="fas fa-map-marker-alt "></i></div>
-                    <div class="contact-item-text ">
-                        <span class="contact-item-label ">Location</span>
-                        <span class="contact-item-value ">Rajapalayam, Tamil Nadu, India</span>
+    <section id="contact">
+        <div class="section-inner">
+            <div class="section-label ">Get in Touch</div>
+            <h2 class="section-title ">Contact Me</h2>
+            <p class="section-subtitle ">Open to work, freelance projects, and collaborative work. Let's build something meaningful together.</p>
+            <div class="contact-grid ">
+                <div class="contact-info reveal-left ">
+                    <a href="mailto:sk.arjunmm777@gmail.com " class="contact-item ">
+                        <div class="contact-item-icon "><i class="fas fa-envelope "></i></div>
+                        <div class="contact-item-text ">
+                            <span class="contact-item-label ">Email</span>
+                            <span class="contact-item-value ">sk.arjunmm777@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="tel:+917010668656 " class="contact-item ">
+                        <div class="contact-item-icon "><i class="fas fa-phone "></i></div>
+                        <div class="contact-item-text ">
+                            <span class="contact-item-label ">Mobile</span>
+                            <span class="contact-item-value ">+91 7010668657</span>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sivakumar-m-8474832b5?utm_source=share_via&utm_content=profile&utm_medium=member_android " target="_blank " class="contact-item ">
+                        <div class="contact-item-icon "><i class="fab fa-linkedin-in "></i></div>
+                        <div class="contact-item-text ">
+                            <span class="contact-item-label ">LinkedIn</span>
+                            <span class="contact-item-value ">Sivakumar M</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/skarjunmm777-collab" target="_blank" class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-item-text">
+                            <span class="contact-item-label">GitHub</span>
+                            <span class="contact-item-value">skarjunmm777</span>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/__ttf_arjun__?igsh=MW0xM3BscWVvd2tyOA==/ " target="_blank " class="contact-item ">
+                        <div class="contact-item-icon ">
+                            <i class="fab fa-instagram "></i>
+                        </div>
+                        <div class="contact-item-text ">
+                            <span class="contact-item-label ">Instagram</span>
+                            <span class="contact-item-value ">@__ttf_arjun__</span>
+                        </div>
+                    </a>
+                    <div class="contact-item " style="cursor:default ">
+                        <div class="contact-item-icon "><i class="fas fa-map-marker-alt "></i></div>
+                        <div class="contact-item-text ">
+                            <span class="contact-item-label ">Location</span>
+                            <span class="contact-item-value ">Rajapalayam, Tamil Nadu, India</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="contact-form reveal">
-                <h3>Send a Message</h3>
-                <div class="form-row">
+                <div class="contact-form reveal">
+                    <h3>Send a Message</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fname">Full Name</label>
+                            <input type="text" id="fname" class="form-control" placeholder="Your name">
+                            <div class="form-error" id="err-name">Please enter your name.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="femail">Email Address</label>
+                            <input type="email" id="femail" class="form-control" placeholder="your@email.com">
+                            <div class="form-error" id="err-email">Please enter a valid email.</div>
+                        </div>
+                    </div>
                     <div class="form-group">
-                        <label for="fname">Full Name</label>
-                        <input type="text" id="fname" class="form-control" placeholder="Your name">
-                        <div class="form-error" id="err-name">Please enter your name.</div>
+                        <label for="fsubject">Subject</label>
+                        <input type="text" id="fsubject" class="form-control" placeholder="What's this about?">
+                        <div class="form-error" id="err-subject">Please enter a subject.</div>
                     </div>
                     <div class="form-group">
-                        <label for="femail">Email Address</label>
-                        <input type="email" id="femail" class="form-control" placeholder="your@email.com">
-                        <div class="form-error" id="err-email">Please enter a valid email.</div>
+                        <label for="fmessage">Message</label>
+                        <textarea id="fmessage" class="form-control" placeholder="Your message here..."></textarea>
+                        <div class="form-error" id="err-message">Please write a message.</div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="fsubject">Subject</label>
-                    <input type="text" id="fsubject" class="form-control" placeholder="What's this about?">
-                    <div class="form-error" id="err-subject">Please enter a subject.</div>
-                </div>
-                <div class="form-group">
-                    <label for="fmessage">Message</label>
-                    <textarea id="fmessage" class="form-control" placeholder="Your message here..."></textarea>
-                    <div class="form-error" id="err-message">Please write a message.</div>
-                </div>
-                <button class="btn-primary" onclick="sendEmail()" style="flex:1;border:none;cursor:pointer;justify-content:center;">
+                    <button class="btn-primary" onclick="sendEmail()" style="flex:1;border:none;cursor:pointer;justify-content:center;">
                     <i class="fa-solid fa-paper-plane"></i> Send Email
                   </button>
-                <a href="https://wa.me/917010668657" target="_blank" class="wa-btn">
-                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                </a>
-            </div>
-            <div class="form-success" id="formSuccess">
-                <i class="fa-solid fa-circle-check"></i> Message sent successfully! SivaKumar will get back to you soon.
+                    <a href="https://wa.me/917010668657" target="_blank" class="wa-btn">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+                <div class="form-success" id="formSuccess">
+                    <i class="fa-solid fa-circle-check"></i> Message sent successfully! SivaKumar will get back to you soon.
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-    <br>
+        </div>
+    </section>
 
     <!-- FOOTER -->
     <footer>
         <div class="footer-inner ">
-            <a href="#home " class="footer-logo ">Sivakumar<span>.</span></a>
+            <a href="#home " class="footer-logo ">Sivakumar<span> M</span></a>
             <ul class="footer-links ">
                 <li><a href="#about ">About</a></li>
                 <li><a href="#education ">Education</a></li>
@@ -2344,7 +2361,7 @@
     </footer>
 
     <!-- TOAST -->
-    <div class="toast " id="toast "></div>
+    <div class="toast" id="toast"></div>
 
     <script>
         // Scroll progress bar
@@ -2447,13 +2464,11 @@
 
             // Email
             const mailLink =
-
-                "mailto:sk.arjunmm777@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(fullMessage)}";
+                `mailto:sk.arjunmm777@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(fullMessage)}`;
 
             // WhatsApp
             const waLink =
-
-                "https://wa.me/917010668657?text=${encodeURIComponent(fullMessage)}";
+                `https://wa.me/917010668657?text=${encodeURIComponent(fullMessage)}`;
 
             // Open Email
             window.location.href = mailLink;
